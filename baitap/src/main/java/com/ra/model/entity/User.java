@@ -13,7 +13,7 @@ public class User {
     private String name;
     @Column(name = "age")
     private int age;
-    @Column(name = "class")
+    @Column(name = "class_room")
     private String classRoom;
 
     public User() {

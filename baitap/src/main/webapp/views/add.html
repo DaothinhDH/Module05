@@ -11,19 +11,27 @@
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
+<ul>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true"
+           aria-expanded="false">Ngôn Ngữ</a>
+        <div class="dropdown-menu" aria-labelledby="dropdownId">
+            <a class="dropdown-item" href="/add/?lang=vi">VN</a>
+            <a class="dropdown-item" href="/add/?lang=en">EN</a>
+        </div>
+    </li>
+</ul>
 <form th:object="${user}" action="/add" method="post">
-    <a>En</a>
-    <a>VN</a>
     <div class="form-group">
-        <label>Name</label>
+        <label th:text="#{name}"></label>
         <input type="text" th:field="*{name}">
     </div>
     <div class="form-group">
-        <label>Age</label>
+        <label th:text="#{age}"></label>
         <input type="text" th:field="*{age}">
     </div>
     <div class="form-group">
-        <label>Class</label>
+        <label th:text="#{class}"></label>
         <input type="text" th:field="*{classRoom}">
     </div>
     <input type="submit" value="Submit"/>

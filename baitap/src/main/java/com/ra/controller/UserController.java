@@ -24,7 +24,6 @@ public class UserController {
     @GetMapping("/add")
     public String add(Model model) {
         User user = new User();
-        userService.saveOfUpdate(user);
         model.addAttribute("user", user);
         return "add";
     }
