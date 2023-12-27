@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dfb7c3a-7c5b-4f31-bc25-3a7077ed1213" name="Changes" comment="" />
+    <list default="true" id="0dfb7c3a-7c5b-4f31-bc25-3a7077ed1213" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../baitap/src/dtb.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/src/main/java/com/ra/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/src/main/java/com/ra/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/src/main/java/com/ra/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/src/main/java/com/ra/model/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/src/main/java/com/ra/model/dao/UserDaoIMPL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/src/main/java/com/ra/model/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/src/main/java/com/ra/model/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/src/main/java/com/ra/model/service/UserServiceIMPL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/src/main/resources/lang_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/src/main/resources/lang_vi.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/src/main/webapp/views/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/src/main/webapp/views/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +29,18 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -23,9 +49,12 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2a1fpAAqISkkaVRKglpyePxqpIr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,7 +65,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/demo05",
+    "last_opened_file_path": "D:/MD05/Customer-Manager-ORM",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,6 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1703491187057</updated>
       <workItem from="1703491188069" duration="2603000" />
+      <workItem from="1703644708850" duration="38000" />
     </task>
     <servers />
   </component>
